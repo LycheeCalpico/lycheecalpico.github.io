@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Courier+New&display=swap");
+  html {
+    font-family: "Courier New", Courier, monospace;
+  }
+}
