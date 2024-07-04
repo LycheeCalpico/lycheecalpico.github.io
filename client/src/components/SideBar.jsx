@@ -14,7 +14,7 @@ const SideBar = () => {
       <nav className="flex flex-col items-start">
         <div className="mb-6 mt-6 flex items-center gap-[10px]">
           <img src="photo.jpg" alt="" className="h-[50px] rounded-md" />
-          <h1 className="text-lg font-bold">Rachel Qiu</h1>
+          <h1 className="text-lg font-bold">Ruike Qiu</h1>
         </div>
         <label htmlFor="" className="font-bold">
           Discover

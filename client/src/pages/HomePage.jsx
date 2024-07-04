@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="p-8 h-full">
       <div className="ml-8 mt-8 flex flex-col items-start">
         <div className="flex flex-col items-start">
-          <h1 className="font-semibold text-2xl">Rachel Qiu</h1>
+          <h1 className="font-semibold text-2xl">Ruike Qiu</h1>
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed once, initially
