@@ -3,7 +3,7 @@ import React from "react";
 
 const Terminal = () => {
   return (
-    <div className="p-4 bg-white text-black rounded-lg shadow-lg max-w-xl mt-2">
+    <div className="w-full h-full p-2 bg-white text-black rounded-lg shadow-lg max-w-xl">
       <div className="bg-gray-300 py-1 px-2 rounded-t-lg flex justify-between items-center">
         <div className="flex space-x-2">
           <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -13,20 +13,12 @@ const Terminal = () => {
         <div className="text-xs text-gray-600">Ruike -- -zsh -- 80x24</div>
       </div>
       <pre className="font-mono text-xs p-2 bg-white text-black rounded-b-lg flex flex-col items-start">
-        <span className="text-black">
-          Last login: Fri Apr 19 11:36:18 on ttys036
-        </span>
-        <br />
         <span className="text-black">Ruike@Ruike-MacBook-Pro ~ %</span>
-        <br />
         <span className="text-black">{`> Ruike.currentLocation`}</span>
         <span className="text-black">"San Jose, CA"</span>
         <br />
         <span className="text-black">{`> Ruike.contactInfo`}</span>
         <span className="text-black">{`["rq2046@nyu.edu", "LinkedIn", "GitHub"]`}</span>
-        <br />
-        <span className="text-black">{`> Ruike.resume`}</span>
-        <span className="text-black">"ruike_resume.pdf"</span>
         <br />
         <span className="text-black">{`> Ruike.interests`}</span>
         <span className="text-black">{`["video games", "reading", "cooking", "painting"]`}</span>

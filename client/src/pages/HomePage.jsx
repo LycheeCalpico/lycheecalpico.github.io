@@ -4,10 +4,10 @@ import Terminal from "../components/Terminal";
 
 const HomePage = () => {
   return (
-    <div className="p-8 h-full">
-      <div className="ml-8 mt-8 flex flex-col items-start">
-        <div className="flex flex-col items-start">
-          <h1 className="font-semibold text-2xl">Ruike Qiu</h1>
+    <div className="p-8 w-full h-full">
+      <div className="w-full h-full ml-8 mt-6 flex flex-col items-start">
+        <div className="w-full flex flex-col items-start">
+          <h1 className="font-semibold text-xl">Ruike Qiu</h1>
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed once, initially
@@ -23,7 +23,9 @@ const HomePage = () => {
             repeat={Infinity}
           />
         </div>
-        <Terminal />
+        <div className="w-full h-[85%] ">
+          <Terminal />
+        </div>
       </div>
     </div>
   );
